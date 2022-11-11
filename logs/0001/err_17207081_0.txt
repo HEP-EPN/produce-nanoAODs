@@ -1,0 +1,2 @@
+./condor_exec.exe: line 32: unexpected EOF while looking for matching `"'
+./condor_exec.exe: line 33: syntax error: unexpected end of file

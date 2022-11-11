@@ -1,0 +1,83 @@
+000 (17205276.000.000) 2022-11-09 02:40:45 Job submitted from host: <129.93.239.166:9618?addrs=129.93.239.166-9618+[2600-900-6-1101-290-faff-feb8-f318]-9618&alias=t3.unl.edu&noUDP&sock=schedd_3341289_ea7d>
+...
+040 (17205276.000.000) 2022-11-09 02:40:59 Started transferring input files
+	Transferring to host: <129.93.183.25:9618?addrs=129.93.183.25-9618+[2600-900-6-1102-20a-f7ff-fed1-f0b0]-9618&alias=red-c7127.unl.edu&noUDP&sock=slot1_24_31406_1e36_40314>
+...
+001 (17205276.000.000) 2022-11-09 02:40:59 Job executing on host: <129.93.183.25:9618?addrs=129.93.183.25-9618+[2600-900-6-1102-20a-f7ff-fed1-f0b0]-9618&alias=red-c7127.unl.edu&noUDP&sock=startd_31372_293b>
+...
+040 (17205276.000.000) 2022-11-09 02:40:59 Finished transferring input files
+...
+006 (17205276.000.000) 2022-11-09 02:41:07 Image size of job updated: 301
+	301  -  MemoryUsage of job (MB)
+	309180  -  ResidentSetSize of job (KB)
+...
+006 (17205276.000.000) 2022-11-09 02:46:08 Image size of job updated: 2470
+	2470  -  MemoryUsage of job (MB)
+	2530092  -  ResidentSetSize of job (KB)
+...
+040 (17205276.000.000) 2022-11-09 03:58:22 Started transferring output files
+...
+040 (17205276.000.000) 2022-11-09 03:58:23 Finished transferring output files
+...
+007 (17205276.000.000) 2022-11-09 03:58:23 Shadow exception!
+	Error from slot1_24@red-c7127.unl.edu: STARTER at 129.93.183.25 failed to send file(s) to <129.93.239.166:9618>: error reading from /var/lib/condor/execute/dir_2383674/testaod3.root: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <129.93.183.25:33529>
+	6312063  -  Run Bytes Sent By Job
+	10366  -  Run Bytes Received By Job
+...
+012 (17205276.000.000) 2022-11-09 03:58:23 Job was held.
+	Error from slot1_24@red-c7127.unl.edu: STARTER at 129.93.183.25 failed to send file(s) to <129.93.239.166:9618>: error reading from /var/lib/condor/execute/dir_2383674/testaod3.root: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <129.93.183.25:33529>
+	Code 13 Subcode 2
+...
+013 (17205276.000.000) 2022-11-09 04:04:10 Job was released.
+	The system macro SYSTEM_PERIODIC_RELEASE expression '((HoldReasonCode =?= 12) || (HoldReasonCode =?= 13) || (HoldReasonCode =?= 14 && HoldReasonSubCode =!= 2)) && ((CurrentTime - EnteredCurrentStatus > 5 * 60) && (JobRunCount < 10))' evaluated to TRUE
+...
+040 (17205276.000.000) 2022-11-09 04:04:15 Started transferring input files
+	Transferring to host: <129.93.183.25:9618?addrs=129.93.183.25-9618+[2600-900-6-1102-20a-f7ff-fed1-f0b0]-9618&alias=red-c7127.unl.edu&noUDP&sock=slot1_24_31406_1e36_42378>
+...
+001 (17205276.000.000) 2022-11-09 04:04:15 Job executing on host: <129.93.183.25:9618?addrs=129.93.183.25-9618+[2600-900-6-1102-20a-f7ff-fed1-f0b0]-9618&alias=red-c7127.unl.edu&noUDP&sock=startd_31372_293b>
+...
+040 (17205276.000.000) 2022-11-09 04:04:15 Finished transferring input files
+...
+040 (17205276.000.000) 2022-11-09 05:18:54 Started transferring output files
+...
+040 (17205276.000.000) 2022-11-09 05:18:54 Finished transferring output files
+...
+007 (17205276.000.000) 2022-11-09 05:18:54 Shadow exception!
+	Error from slot1_24@red-c7127.unl.edu: STARTER at 129.93.183.25 failed to send file(s) to <129.93.239.166:9618>: error reading from /var/lib/condor/execute/dir_2402236/testaod3.root: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <129.93.183.25:41653>
+	6312384  -  Run Bytes Sent By Job
+	10366  -  Run Bytes Received By Job
+...
+012 (17205276.000.000) 2022-11-09 05:18:54 Job was held.
+	Error from slot1_24@red-c7127.unl.edu: STARTER at 129.93.183.25 failed to send file(s) to <129.93.239.166:9618>: error reading from /var/lib/condor/execute/dir_2402236/testaod3.root: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <129.93.183.25:41653>
+	Code 13 Subcode 2
+...
+013 (17205276.000.000) 2022-11-09 05:24:43 Job was released.
+	The system macro SYSTEM_PERIODIC_RELEASE expression '((HoldReasonCode =?= 12) || (HoldReasonCode =?= 13) || (HoldReasonCode =?= 14 && HoldReasonSubCode =!= 2)) && ((CurrentTime - EnteredCurrentStatus > 5 * 60) && (JobRunCount < 10))' evaluated to TRUE
+...
+040 (17205276.000.000) 2022-11-09 05:24:44 Started transferring input files
+	Transferring to host: <129.93.183.23:9618?addrs=129.93.183.23-9618+[2600-900-6-1102-20a-f7ff-fed1-f080]-9618&alias=red-c7125.unl.edu&noUDP&sock=slot1_13_2850049_1911_3793>
+...
+001 (17205276.000.000) 2022-11-09 05:24:44 Job executing on host: <129.93.183.23:9618?addrs=129.93.183.23-9618+[2600-900-6-1102-20a-f7ff-fed1-f080]-9618&alias=red-c7125.unl.edu&noUDP&sock=startd_2850014_20e4>
+...
+040 (17205276.000.000) 2022-11-09 05:24:44 Finished transferring input files
+...
+006 (17205276.000.000) 2022-11-09 05:29:52 Image size of job updated: 2873
+	2873  -  MemoryUsage of job (MB)
+	2942024  -  ResidentSetSize of job (KB)
+...
+004 (17205276.000.000) 2022-11-09 06:18:12 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	10366  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            : 99347      125000    862644 
+	   Memory (MB)          :  2873        4000      4000 
+...
+009 (17205276.000.000) 2022-11-09 06:18:12 Job was aborted.
+	via condor_rm (by user ekauffma)
+
+	Job terminated by itself at 2022-11-09T11:18:54Z (using method 0: OF_ITS_OWN_ACCORD).
+...

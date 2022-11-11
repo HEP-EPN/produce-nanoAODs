@@ -1,0 +1,9 @@
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+Cloning into '/var/lib/condor/execute/dir_3967074/CMSSW_10_6_30/src'...
+Switched to a new branch 'from-CMSSW_10_6_30'
+From .
+ * [new ref]                            -> merge-attempt
+From https://github.com/cms-sw/cmssw
+ * [new ref]                 refs/pull/39040/head -> cms-sw/refs/pull/39040/head
+Switched to branch 'merge-attempt'
+Switched to branch 'from-CMSSW_10_6_30'

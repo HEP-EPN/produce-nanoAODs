@@ -1,0 +1,514 @@
+/var/lib/condor/execute/dir_4038908
+subject   : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ekauffma/CN=843643/CN=Elliott Kauffman/CN=341241386
+issuer    : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ekauffma/CN=843643/CN=Elliott Kauffman
+identity  : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ekauffma/CN=843643/CN=Elliott Kauffman
+type      : RFC compliant proxy
+strength  : 2048 bits
+path      : /var/lib/condor/execute/dir_4038908/x509up_u7652
+timeleft  : 2:20:18
+key usage : Digital Signature, Key Encipherment
+
+Listing installed projects available for platform >> slc7_amd64_gcc700 <<
+
+--------------------------------------------------------------------------------
+| Project Name  | Project Version          | Project Location                  |
+--------------------------------------------------------------------------------
+
+  CMSSW           CMSSW_10_6_0_pre1          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_0_pre1
+  CMSSW           CMSSW_10_6_0_pre2          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_0_pre2
+  CMSSW           CMSSW_10_6_0_pre3          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_0_pre3
+  CMSSW           CMSSW_10_6_0_pre3_ROOT614  
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_0_pre3_ROOT614
+  CMSSW           CMSSW_10_6_0_pre4          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_0_pre4
+  CMSSW           CMSSW_10_6_0               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_0
+  CMSSW           CMSSW_10_6_0_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_0_patch1
+  CMSSW           CMSSW_10_6_0_patch2        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_0_patch2
+  CMSSW           CMSSW_10_6_1               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_1
+  CMSSW           CMSSW_10_6_1_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_1_patch1
+  CMSSW           CMSSW_10_6_1_patch2        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_1_patch2
+  CMSSW           CMSSW_10_6_1_patch3        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_1_patch3
+  CMSSW           CMSSW_10_6_2               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_2
+  CMSSW           CMSSW_10_6_3               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_3
+  CMSSW           CMSSW_10_6_3_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_3_patch1
+  CMSSW           CMSSW_10_6_4               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_4
+  CMSSW           CMSSW_10_6_4_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_4_patch1
+  CMSSW           CMSSW_10_6_4_patch2        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_4_patch2
+  CMSSW           CMSSW_10_6_5               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_5
+  CMSSW           CMSSW_10_6_5_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_5_patch1
+  CMSSW           CMSSW_10_6_6               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_6
+  CMSSW           CMSSW_10_6_7               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_7
+  CMSSW           CMSSW_10_6_8               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_8
+  CMSSW           CMSSW_10_6_8_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_8_patch1
+  CMSSW           CMSSW_10_6_9               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_9
+  CMSSW           CMSSW_10_6_10              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_10
+  CMSSW           CMSSW_10_6_11_CANDIDATE    
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_11_CANDIDATE
+  CMSSW           CMSSW_10_6_11_CANDIDATE2   
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_11_CANDIDATE2
+  CMSSW           CMSSW_10_6_11_CANDIDATE3   
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_11_CANDIDATE3
+  CMSSW           CMSSW_10_6_11              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_11
+  CMSSW           CMSSW_10_6_11_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_11_patch1
+  CMSSW           CMSSW_10_6_12              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12
+  CMSSW           CMSSW_10_6_13              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_13
+  CMSSW           CMSSW_10_6_14_Pyt8240BugFix  
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_14_Pyt8240BugFix
+  CMSSW           CMSSW_10_6_14              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_14
+  CMSSW           CMSSW_10_6_15              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_15
+  CMSSW           CMSSW_10_6_16              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_16
+  CMSSW           CMSSW_10_6_17              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_17
+  CMSSW           CMSSW_10_6_17_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_17_patch1
+  CMSSW           CMSSW_10_6_18              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_18
+  CMSSW           CMSSW_10_6_19              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_19
+  CMSSW           CMSSW_10_6_19_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_19_patch1
+  CMSSW           CMSSW_10_6_19_patch2       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_19_patch2
+  CMSSW           CMSSW_10_6_19_patch3       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_19_patch3
+  CMSSW           CMSSW_10_6_20              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_20
+  CMSSW           CMSSW_10_6_20_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_20_patch1
+  CMSSW           CMSSW_10_6_21              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_21
+  CMSSW           CMSSW_10_6_22              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_22
+  CMSSW           CMSSW_10_6_23              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_23
+  CMSSW           CMSSW_10_6_24              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_24
+  CMSSW           CMSSW_10_6_25              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_25
+  CMSSW           CMSSW_10_6_26              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_26
+  CMSSW           CMSSW_10_6_27              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_27
+  CMSSW           CMSSW_10_6_28              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_28
+  CMSSW           CMSSW_10_6_28_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_28_patch1
+  CMSSW           CMSSW_10_6_29              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_29
+  CMSSW           CMSSW_10_6_29_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_29_patch1
+  CMSSW           CMSSW_10_6_30              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_30
+  CMSSW           CMSSW_10_6_30_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_30_patch1
+  CMSSW           CMSSW_10_6_X_2022-10-30-0000  
+                                         --> /cvmfs/cms-ib.cern.ch/week1/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_X_2022-10-30-0000
+  CMSSW           CMSSW_10_6_X_2022-11-02-1100  
+                                         --> /cvmfs/cms-ib.cern.ch/week1/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_X_2022-11-02-1100
+  CMSSW           CMSSW_10_6_X_2022-11-06-0000  
+                                         --> /cvmfs/cms-ib.cern.ch/sw/x86_64/week0/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_X_2022-11-06-0000
+  CMSSW           CMSSW_10_6_X_2022-11-08-1100  
+                                         --> /cvmfs/cms-ib.cern.ch/sw/x86_64/week0/slc7_amd64_gcc700/cms/cmssw-patch/CMSSW_10_6_X_2022-11-08-1100
+
+Listing installed projects available for platform >> slc7_amd64_gcc820 <<
+
+--------------------------------------------------------------------------------
+| Project Name  | Project Version          | Project Location                  |
+--------------------------------------------------------------------------------
+
+  CMSSW           CMSSW_10_6_0_pre1          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_0_pre1
+  CMSSW           CMSSW_10_6_0_pre2          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_0_pre2
+  CMSSW           CMSSW_10_6_0_pre3          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_0_pre3
+  CMSSW           CMSSW_10_6_0_pre4          
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_0_pre4
+  CMSSW           CMSSW_10_6_0               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_0
+  CMSSW           CMSSW_10_6_0_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_0_patch1
+  CMSSW           CMSSW_10_6_0_patch2        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_0_patch2
+  CMSSW           CMSSW_10_6_1               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_1
+  CMSSW           CMSSW_10_6_1_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_1_patch1
+  CMSSW           CMSSW_10_6_1_patch2        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_1_patch2
+  CMSSW           CMSSW_10_6_1_patch3        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_1_patch3
+  CMSSW           CMSSW_10_6_2               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_2
+  CMSSW           CMSSW_10_6_3               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_3
+  CMSSW           CMSSW_10_6_3_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_3_patch1
+  CMSSW           CMSSW_10_6_4               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_4
+  CMSSW           CMSSW_10_6_4_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_4_patch1
+  CMSSW           CMSSW_10_6_4_patch2        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_4_patch2
+  CMSSW           CMSSW_10_6_5               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_5
+  CMSSW           CMSSW_10_6_5_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_5_patch1
+  CMSSW           CMSSW_10_6_6               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_6
+  CMSSW           CMSSW_10_6_7               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_7
+  CMSSW           CMSSW_10_6_8               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_8
+  CMSSW           CMSSW_10_6_8_patch1        
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_8_patch1
+  CMSSW           CMSSW_10_6_9               
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_9
+  CMSSW           CMSSW_10_6_10              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_10
+  CMSSW           CMSSW_10_6_11_CANDIDATE    
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_11_CANDIDATE
+  CMSSW           CMSSW_10_6_11_CANDIDATE2   
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_11_CANDIDATE2
+  CMSSW           CMSSW_10_6_11_CANDIDATE3   
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_11_CANDIDATE3
+  CMSSW           CMSSW_10_6_11              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_11
+  CMSSW           CMSSW_10_6_11_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_11_patch1
+  CMSSW           CMSSW_10_6_12              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_12
+  CMSSW           CMSSW_10_6_13              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_13
+  CMSSW           CMSSW_10_6_14_Pyt8240BugFix  
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_14_Pyt8240BugFix
+  CMSSW           CMSSW_10_6_14              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_14
+  CMSSW           CMSSW_10_6_15              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_15
+  CMSSW           CMSSW_10_6_16              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_16
+  CMSSW           CMSSW_10_6_17              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_17
+  CMSSW           CMSSW_10_6_17_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_17_patch1
+  CMSSW           CMSSW_10_6_18              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_18
+  CMSSW           CMSSW_10_6_19              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_19
+  CMSSW           CMSSW_10_6_19_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_19_patch1
+  CMSSW           CMSSW_10_6_19_patch2       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_19_patch2
+  CMSSW           CMSSW_10_6_19_patch3       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_19_patch3
+  CMSSW           CMSSW_10_6_20              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_20
+  CMSSW           CMSSW_10_6_20_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_20_patch1
+  CMSSW           CMSSW_10_6_21              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_21
+  CMSSW           CMSSW_10_6_22              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_22
+  CMSSW           CMSSW_10_6_23              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_23
+  CMSSW           CMSSW_10_6_24              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_24
+  CMSSW           CMSSW_10_6_25              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_25
+  CMSSW           CMSSW_10_6_26              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_26
+  CMSSW           CMSSW_10_6_27              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_27
+  CMSSW           CMSSW_10_6_28              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_28
+  CMSSW           CMSSW_10_6_28_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_28_patch1
+  CMSSW           CMSSW_10_6_29              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_29
+  CMSSW           CMSSW_10_6_29_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_29_patch1
+  CMSSW           CMSSW_10_6_30              
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_10_6_30
+  CMSSW           CMSSW_10_6_30_patch1       
+                                         --> /cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw-patch/CMSSW_10_6_30_patch1
+slc7_amd64_gcc10
+Merge made by the 'recursive' strategy.
+ .../python/Modifier_run2_nanoAOD_106X2015_cff.py   |  3 +++
+ Configuration/StandardSequences/python/Eras.py     |  2 +-
+ PhysicsTools/NanoAOD/python/electrons_cff.py       | 19 ++++++++----------
+ PhysicsTools/NanoAOD/python/jets_cff.py            | 23 ++++++++++++++++------
+ PhysicsTools/NanoAOD/python/nano_cff.py            | 14 +++++++------
+ PhysicsTools/NanoAOD/python/nano_eras_cff.py       |  1 +
+ PhysicsTools/NanoAOD/python/nanogen_cff.py         |  2 +-
+ PhysicsTools/NanoAOD/python/photons_cff.py         |  4 ++--
+ PhysicsTools/NanoAOD/python/protons_cff.py         |  2 +-
+ PhysicsTools/NanoAOD/python/taus_cff.py            | 11 +++++++----
+ PhysicsTools/NanoAOD/python/triggerObjects_cff.py  |  3 ++-
+ .../NanoAOD/python/ttbarCategorization_cff.py      |  6 ++++--
+ 12 files changed, 55 insertions(+), 35 deletions(-)
+ create mode 100644 Configuration/Eras/python/Modifier_run2_nanoAOD_106X2015_cff.py
+>> Checking Configuration/StandardSequences CMSSW_10_6_30
+   x Configuration/StandardSequences/python/Eras.py
+>> Checking PhysicsTools/NanoAOD CMSSW_10_6_30
+   x PhysicsTools/NanoAOD/python/electrons_cff.py
+   x PhysicsTools/NanoAOD/python/jets_cff.py
+   x PhysicsTools/NanoAOD/python/nano_cff.py
+   x PhysicsTools/NanoAOD/python/nano_eras_cff.py
+   x PhysicsTools/NanoAOD/python/nanogen_cff.py
+   x PhysicsTools/NanoAOD/python/photons_cff.py
+   x PhysicsTools/NanoAOD/python/protons_cff.py
+   x PhysicsTools/NanoAOD/python/taus_cff.py
+   x PhysicsTools/NanoAOD/python/triggerObjects_cff.py
+   x PhysicsTools/NanoAOD/python/ttbarCategorization_cff.py
+Checking out these packages: 3
+Configuration/Applications (python)
+HLTrigger/Configuration (python)
+RecoEgamma/EgammaElectronProducers (python)
+total 12
+drwxr-xr-x  7 ekauffma hep  152 Nov  9 21:48 .
+drwxr-xr-x 18 ekauffma hep  213 Nov  9 21:48 ..
+-rw-r--r--  1 ekauffma hep  486 Nov  9 21:48 .clang-format
+-rw-r--r--  1 ekauffma hep 1520 Nov  9 21:48 .clang-tidy
+drwxr-xr-x  8 ekauffma hep  198 Nov  9 21:48 .git
+-rw-r--r--  1 ekauffma hep   36 Nov  9 21:48 .gitignore
+drwxr-xr-x  5 ekauffma hep   63 Nov  9 21:48 Configuration
+drwxr-xr-x  3 ekauffma hep   27 Nov  9 21:48 HLTrigger
+drwxr-xr-x  3 ekauffma hep   21 Nov  9 21:48 PhysicsTools
+drwxr-xr-x  3 ekauffma hep   37 Nov  9 21:48 RecoEgamma
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Building CMSSW version CMSSW_10_6_30 ----
+------- copying files from src/Configuration/Applications/scripts -------
+>> copied cmsDriver.py
+------- copying files from src/PhysicsTools/NanoAOD/scripts -------
+>> copied haddnano.py
+------- copying files from src/HLTrigger/Configuration/scripts -------
+>> copied hltIntegrationTests
+>> copied edmPluginCoverage
+>> copied hltDumpStream
+>> copied hltCheckPrescaleModules
+>> copied hltConfigFromDB
+>> copied hltGetConfiguration
+>> copied hltCompareResults
+>> copied hltListPaths
+>> copied hltFindDuplicates
+>> copied extend_argparse.py
+>> Subsystem BigProducts built
+>> Entering Package Configuration/Eras
+>> Creating project symlinks
+>> Entering Package Configuration/StandardSequences
+>> Entering Package Configuration/Applications
+>> Entering Package PhysicsTools/NanoAOD
+>> Entering Package HLTrigger/Configuration
+>> Entering Package RecoEgamma/EgammaElectronProducers
+>> Leaving Package Configuration/Applications
+>> Package Configuration/Applications built
+>> Leaving Package HLTrigger/Configuration
+>> Package HLTrigger/Configuration built
+>> Leaving Package Configuration/Eras
+>> Leaving Package Configuration/StandardSequences
+>> Package Configuration/Eras built
+>> Package Configuration/StandardSequences built
+Entering library rule at src/PhysicsTools/NanoAOD/plugins
+>> Subsystem HLTrigger built
+Entering library rule at RecoEgamma/EgammaElectronProducers
+Entering library rule at src/RecoEgamma/EgammaElectronProducers/test
+>> Subsystem Configuration built
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/SimpleFlatTableProducerPlugins.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/NativeArrayTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/BJetEnergyRegressionVarProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/BJetEnergyRegressionMVA.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/TriggerOutputBranches.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/IsoValueMapProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/UniqueStringProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/EGMSeedGainProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/EnergyRingsTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/L1TriggerResultsConverter.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/IsFromLostTrackMapProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/CandMCMatchTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/LHCInfoProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/LeptonJetVarProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/GenWeightsTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/ProtonProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/JetIDValueMap.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/LHETablesProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/TriggerObjectTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/NanoAODBaseCrossCleaner.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/TableOutputBranches.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/BTagSFProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/VertexTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/NanoAODOutputModule.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/MuonIDTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/EventStringOutputBranches.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/NanoAODSimpleCrossCleaner.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/SummaryTableOutputBranches.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/GlobalVariablesTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/GenJetFlavourTableProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/LeptonInJetProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/NanoAODDQM.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/NPUTablesProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/GenJetGenPartMerger.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/GenJetTauTaggerProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/PileupJetIDVarProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/EGMEnergyVarProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/plugins/VIDNestedWPBitmapProducer.cc 
+>> Compiling  /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/PhysicsTools/NanoAOD/test/runtestPhysicsToolsNanoAOD.cpp 
+Entering library rule at src/RecoEgamma/EgammaElectronProducers/plugins
+>> Compiling  /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/src/LowPtGsfElectronIDHeavyObjectCache.cc 
+>> Compiling  /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/src/LowPtGsfElectronFeatures.cc 
+>> Compiling  /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/src/LowPtGsfElectronSeedHeavyObjectCache.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/test/GEDValueMapAnalyzer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/SiStripElectronProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronSeedProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronFinalizer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronCoreBaseProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronIDProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronCoreProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronFull5x5Filler.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGSFToTrackLinker.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronSCProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/TrackingRegionsFromSuperClustersEDProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronSeedValueMapsProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronCoreEcalDrivenProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/LowPtGsfElectronCoreProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronEcalDrivenProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/ElectronNHitSeedProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GEDGsfElectronProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/SiStripElectronSeedProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GEDGsfElectronFinalizer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/SealModule.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronBaseProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GEDGsfElectronCoreProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/SiStripElectronAssociator.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/GsfElectronProducer.cc 
+>> Compiling edm plugin /var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src/RecoEgamma/EgammaElectronProducers/plugins/ElectronSeedProducer.cc 
+>> Building binary runtestPhysicsToolsNanoAOD
+Copying tmp/slc7_amd64_gcc820/src/PhysicsTools/NanoAOD/test/runtestPhysicsToolsNanoAOD/runtestPhysicsToolsNanoAOD to productstore area:
+>> Building shared library tmp/slc7_amd64_gcc820/src/RecoEgamma/EgammaElectronProducers/src/RecoEgammaEgammaElectronProducers/libRecoEgammaEgammaElectronProducers.so
+>> Building edm plugin tmp/slc7_amd64_gcc820/src/RecoEgamma/EgammaElectronProducers/test/RecoEgammaGEDValueMapAnalyzer/libRecoEgammaGEDValueMapAnalyzer.so
+Copying tmp/slc7_amd64_gcc820/src/RecoEgamma/EgammaElectronProducers/src/RecoEgammaEgammaElectronProducers/libRecoEgammaEgammaElectronProducers.so to productstore area:
+Leaving library rule at RecoEgamma/EgammaElectronProducers
+>> Building edm plugin tmp/slc7_amd64_gcc820/src/PhysicsTools/NanoAOD/plugins/PhysicsToolsNanoAODPlugins/libPhysicsToolsNanoAODPlugins.so
+Leaving library rule at src/RecoEgamma/EgammaElectronProducers/test
+@@@@ Running edmWriteConfigs for RecoEgammaGEDValueMapAnalyzer
+--- Registered EDM Plugin: RecoEgammaGEDValueMapAnalyzer
+Leaving library rule at src/PhysicsTools/NanoAOD/plugins
+@@@@ Running edmWriteConfigs for PhysicsToolsNanoAODPlugins
+JetRegressionVarProducer
+BJetEnergyRegressionMVA
+MuonIsoValueMapProducer
+EleIsoValueMapProducer
+PhoIsoValueMapProducer
+IsoTrackIsoValueMapProducer
+EnergyRingsTable
+L1TriggerResultsConverter
+isFromLostTrackMapProducer
+candMcMatchTable
+MuonJetVarProducer
+ElectronJetVarProducer
+genWeightsTable
+ProtonProducer
+lheInfoTable
+BTagWeightTable
+muonIDTable
+genJetFlavourTable
+LepInJetProducer
+puTable
+PileupJetIDVarProducer
+ElectronEnergyVarProducer
+PhotonEnergyVarProducer
+EleVIDNestedWPBitmapProducer
+PhoVIDNestedWPBitmapProducer
+--- Registered EDM Plugin: PhysicsToolsNanoAODPlugins
+>> Leaving Package PhysicsTools/NanoAOD
+>> Package PhysicsTools/NanoAOD built
+>> Subsystem PhysicsTools built
+>> Building edm plugin tmp/slc7_amd64_gcc820/src/RecoEgamma/EgammaElectronProducers/plugins/RecoEgammaEgammaElectronProducersPlugins/libRecoEgammaEgammaElectronProducersPlugins.so
+Leaving library rule at src/RecoEgamma/EgammaElectronProducers/plugins
+@@@@ Running edmWriteConfigs for RecoEgammaEgammaElectronProducersPlugins
+lowPtGsfElectronSeeds
+lowPtGsfElectronFinalizer
+defaultLowPtGsfElectronID
+lowPtGsfToTrackLinksDefault
+defaultLowPtGsfElectronSuperClusters
+trackingRegionsFromSuperClusters
+lowPtGsfElectronSeedValueMaps
+defaultLowPtGsfElectronCores
+electronNHitSeedProducer
+ecalDrivenElectronSeeds
+produceEcalDrivenGsfElectronCores
+--- Registered EDM Plugin: RecoEgammaEgammaElectronProducersPlugins
+>> Leaving Package RecoEgamma/EgammaElectronProducers
+>> Package RecoEgamma/EgammaElectronProducers built
+>> Subsystem RecoEgamma built
+gmake[1]: Entering directory '/var/lib/condor/execute/dir_4038908/CMSSW_10_6_30'
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+@@@@ Refreshing Plugins:edmPluginRefresh
+>> Creating project symlinks
+>> Done python_symlink
+>> Compiling python modules cfipython/slc7_amd64_gcc820
+>> Compiling python modules python
+>> Compiling python modules src/Configuration/Applications/python
+>> Compiling python modules src/Configuration/Eras/python
+>> Compiling python modules src/Configuration/StandardSequences/python
+>> Compiling python modules src/HLTrigger/Configuration/python
+>> Compiling python modules src/PhysicsTools/NanoAOD/python
+>> Compiling python modules src/RecoEgamma/EgammaElectronProducers/python
+>> Done generating edm plugin poisoned information
+>> Plugins of all types refreshed.
+>> All python modules compiled
+gmake[1]: Leaving directory '/var/lib/condor/execute/dir_4038908/CMSSW_10_6_30'
+finished setting up cmssw
+running cmsRun doublemuon_cfg.py (test on 2 files)
+total 0
+drwxr-xr-x 5 ekauffma hep 63 Nov  9 21:48 Configuration
+drwxr-xr-x 3 ekauffma hep 27 Nov  9 21:48 HLTrigger
+drwxr-xr-x 3 ekauffma hep 21 Nov  9 21:48 PhysicsTools
+drwxr-xr-x 3 ekauffma hep 37 Nov  9 21:48 RecoEgamma
+/var/lib/condor/execute/dir_4038908/CMSSW_10_6_30/src
+saving to testaod3.root
+total 64K
+drwxr-xr-x 19 ekauffma hep  229 Nov  9 21:48 CMSSW_10_6_30
+-rw-r--r--  1 ekauffma hep  930 Nov  9 21:50 _condor_stderr
+-rw-r--r--  1 ekauffma hep  37K Nov  9 21:50 _condor_stdout
+-rwxr-xr-x  1 ekauffma hep  554 Nov  9 21:47 condor_exec.exe
+-rw-r--r--  1 ekauffma hep    0 Nov  9 21:47 docker_stderror
+drwxrwxrwt  2 ekauffma hep    6 Nov  9 21:47 tmp
+-rw-r--r--  1 ekauffma hep 4.6K Nov  9 21:47 ttbar_cfg.py
+drwxrwxrwt  3 ekauffma hep   17 Nov  9 21:47 var
+-rw-------  1 ekauffma hep 6.3K Nov  9 21:47 x509up_u7652
+/var/lib/condor/execute/dir_4038908

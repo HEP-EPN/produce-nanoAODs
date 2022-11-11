@@ -1,0 +1,20 @@
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+Cloning into '/var/lib/condor/execute/dir_173432/CMSSW_10_6_30/src'...
+Switched to a new branch 'from-CMSSW_10_6_30'
+From .
+ * [new ref]                            -> merge-attempt
+From https://github.com/cms-sw/cmssw
+ * [new ref]                 refs/pull/39040/head -> cms-sw/refs/pull/39040/head
+Switched to branch 'merge-attempt'
+Switched to branch 'from-CMSSW_10_6_30'
+----- Begin Fatal Exception 10-Nov-2022 10:50:09 UTC-----------------------
+An exception of category 'ConfigFileReadError' occurred while
+   [0] Processing the python configuration file named cfg.py
+Exception Message:
+ unknown python problem occurred.
+IOError: (2, 'No such file or directory', 'combined-data/cmsopendata2015_single_top_s_chan_19394_PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1_50000_0000.txt')
+
+At:
+  cfg.py(35): <module>
+
+----- End Fatal Exception -------------------------------------------------

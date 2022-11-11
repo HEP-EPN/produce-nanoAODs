@@ -1,0 +1,22 @@
+# run miniAOD -> ntuple conversion (full ntuple)
+# requires active proxy -> voms-proxy-init
+
+executable              = run.sh
+universe                = docker
+log                     = logs/0001/job_$(cluster)_$(Process).log
+output                  = logs/0001/out_$(cluster)_$(Process).txt
+error                   = logs/0001/err_$(cluster)_$(Process).txt
+should_transfer_files   = Yes
+
+# /tmp/x509up_u7652 is ekauffma's proxy 
+# filenames_*.txt (change to appropriate filename) contains the file names in the directory combined-data
+# split-datasets contains text files with lists of ROOT files to convert to nanoAOD format (all ROOT files in one text file are combined)
+transfer_input_files    = /tmp/x509up_u7652, filenames_test.txt, split-datasets, nanoaod15_cfg.py 
+when_to_transfer_output = ON_EXIT
+#transfer_output_files   = 
++WantDocker             = true
++DockerImage            = "unlhcc/osg-wn-el7"
+docker_image            = "unlhcc/osg-wn-el7"
+request_memory          = 4000
+
+queue arguments from filenames_test.txt
