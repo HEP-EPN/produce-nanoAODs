@@ -1,4 +1,0 @@
-/var/lib/condor/execute/dir_2914235
-Linux ekauffma-17207079.0-red-c7127.unl.edu 4.18.0-372.32.1.el8_6.x86_64 #1 SMP Tue Oct 25 05:53:57 EDT 2022 x86_64 x86_64 x86_64 GNU/Linux
-ekauffma-17207079.0-red-c7127.unl.edu
-input: nanoaod_filenames_test.txt
