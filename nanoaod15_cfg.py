@@ -34,7 +34,7 @@ process.maxEvents = cms.untracked.PSet(
 input_file = '../../' + sys.argv[-1] + '.txt'
 with open(input_file) as file:
     lines = [line.rstrip() for line in file]
-lines = tuple(lines[:2]) # only process two files instead of fifty; use for testing purposes
+lines = tuple(lines)
 
 
 # Input source

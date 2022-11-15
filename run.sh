@@ -23,8 +23,8 @@ echo "finished setting up cmssw"
 # get text file as $INP and create output filename
 INP=$1
 echo "input: $INP"
-# OUTP=AGC/nanoAOD/$INP.root
-OUTP=AGC/nanoAOD/test.root # for testing purposes, can overwrite
+OUTP=AGC/nanoAOD/$INP.root
+# OUTP=AGC/nanoAOD/test.root # for testing purposes, can overwrite
 
 # create nanoAOD
 cp ../../nanoaod15_cfg.py .

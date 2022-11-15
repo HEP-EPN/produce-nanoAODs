@@ -1,0 +1,31 @@
+000 (17208253.019.000) 2022-11-15 02:19:32 Job submitted from host: <129.93.239.166:9618?addrs=129.93.239.166-9618+[2600-900-6-1101-290-faff-feb8-f318]-9618&alias=t3.unl.edu&noUDP&sock=schedd_3341289_ea7d>
+...
+040 (17208253.019.000) 2022-11-15 02:28:41 Started transferring input files
+	Transferring to host: <129.93.183.23:9618?addrs=129.93.183.23-9618+[2600-900-6-1102-20a-f7ff-fed1-f080]-9618&alias=red-c7125.unl.edu&noUDP&sock=slot1_37_2850049_1911_30855>
+...
+040 (17208253.019.000) 2022-11-15 02:28:41 Finished transferring input files
+...
+001 (17208253.019.000) 2022-11-15 02:28:42 Job executing on host: <129.93.183.23:9618?addrs=129.93.183.23-9618+[2600-900-6-1102-20a-f7ff-fed1-f080]-9618&alias=red-c7125.unl.edu&noUDP&sock=startd_2850014_20e4>
+...
+006 (17208253.019.000) 2022-11-15 02:28:50 Image size of job updated: 220
+	220  -  MemoryUsage of job (MB)
+	225336  -  ResidentSetSize of job (KB)
+...
+006 (17208253.019.000) 2022-11-15 02:33:50 Image size of job updated: 2188
+	2188  -  MemoryUsage of job (MB)
+	2240688  -  ResidentSetSize of job (KB)
+...
+004 (17208253.019.000) 2022-11-15 04:25:33 Job was evicted.
+	(0) CPU times
+		Usr 0 01:50:31, Sys 0 00:03:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	5215473  -  Run Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 157952        7500    862644 
+	   Memory (MB)          :   2188        4000      4000 
+...
+009 (17208253.019.000) 2022-11-15 04:25:33 Job was aborted.
+	via condor_rm (by user ekauffma)
+...

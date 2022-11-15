@@ -1,0 +1,29 @@
+000 (17208278.027.000) 2022-11-15 04:16:29 Job submitted from host: <129.93.239.166:9618?addrs=129.93.239.166-9618+[2600-900-6-1101-290-faff-feb8-f318]-9618&alias=t3.unl.edu&noUDP&sock=schedd_3341289_ea7d>
+...
+040 (17208278.027.000) 2022-11-15 04:26:22 Started transferring input files
+	Transferring to host: <129.93.183.23:9618?addrs=129.93.183.23-9618+[2600-900-6-1102-20a-f7ff-fed1-f080]-9618&alias=red-c7125.unl.edu&noUDP&sock=slot1_30_2850049_1911_30896>
+...
+040 (17208278.027.000) 2022-11-15 04:26:23 Finished transferring input files
+...
+001 (17208278.027.000) 2022-11-15 04:26:24 Job executing on host: <129.93.183.23:9618?addrs=129.93.183.23-9618+[2600-900-6-1102-20a-f7ff-fed1-f080]-9618&alias=red-c7125.unl.edu&noUDP&sock=startd_2850014_20e4>
+...
+006 (17208278.027.000) 2022-11-15 04:26:32 Image size of job updated: 136
+	136  -  MemoryUsage of job (MB)
+	139660  -  ResidentSetSize of job (KB)
+...
+006 (17208278.027.000) 2022-11-15 04:31:33 Image size of job updated: 2114
+	2114  -  MemoryUsage of job (MB)
+	2165492  -  ResidentSetSize of job (KB)
+...
+006 (17208278.027.000) 2022-11-15 06:21:44 Image size of job updated: 2190
+	2190  -  MemoryUsage of job (MB)
+	2243016  -  ResidentSetSize of job (KB)
+...
+006 (17208278.027.000) 2022-11-15 06:26:44 Image size of job updated: 2227
+	2227  -  MemoryUsage of job (MB)
+	2281024  -  ResidentSetSize of job (KB)
+...
+006 (17208278.027.000) 2022-11-15 06:31:44 Image size of job updated: 2264
+	2264  -  MemoryUsage of job (MB)
+	2318636  -  ResidentSetSize of job (KB)
+...
