@@ -1,4 +1,29 @@
 # produce-nanoAODs
+
+This is a modified version of the main repository [produce-nanoAODs](https://github.com/ekauffma/produce-nanoAODs).
+
+This version runs on CERN lxplus machines. To run one needs:
+
+1. Modify the `filenames.txt` with the names of the datasets located in `split-datasets`.
+1. Modify `trasnfer_input_files` in the `nanoaod_job.sub` script. Remove the voms proxy with your own certificate. One needs to run:
+```
+voms-proxy-init -voms cms -valid 72:0
+```
+and copy the file created into your home area. After that copy the location to that file into the `transfer_input_files`.
+1. Modify `run.sh`. First modify user proxy `export X509_USER_PROXY=$PWD/x509up_u22222` with your own proxy. Then change the `EOS_HOME` variable with your user information. 
+1. After that, in lxplus, you can run:
+```
+condor_submit nanoaod_job.sub
+```
+It will submit as many jobs as lines you have in `filenames.txt`. To check the status of the jobs one can run:
+``` 
+condor_q
+```
+the log files will be located in the `logs/` folder.
+
+
+## Original README
+
 This repository contains the HTCondor submit file and everything else necessary to produce nanoAODs from the CMS 2015 open data
 
 This repo includes the filenames.txt file and split-datasets directory which contain text files with the paths for the ROOT files. 
