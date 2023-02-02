@@ -6,7 +6,7 @@
 # set up CMSSW (Sneha's version)
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 echo $PWD
-export X509_USER_PROXY=$PWD/x509up_u7652  # id -u ekauffma
+export X509_USER_PROXY=$PWD/x509up_u15148  # id -u ekauffma
 voms-proxy-info --all
 scram list CMSSW_10_6_
 echo $SCRAM_ARCH
@@ -23,8 +23,6 @@ echo "finished setting up cmssw"
 # get text file as $INP and create output filename
 INP=$1
 echo "input: $INP"
-OUTP=AGC/nanoAOD/$INP.root
-# OUTP=AGC/nanoAOD/test.root # for testing purposes, can overwrite
 
 # create nanoAOD
 cp ../../nanoaod15_cfg.py .
@@ -36,7 +34,15 @@ cd ../..
 ls -lh
 
 # transfer file
-echo "xrdcp -f -p out.root root://xrootd-local.unl.edu:1094//store/user/$OUTP"
-xrdcp -f -p out.root root://xrootd-local.unl.edu:1094//store/user/$OUTP
-ls /mnt/t2ceph/cms/store/user/AGC/nanoAOD/
+EOS_HOME=/eos/user/a/algomez
+echo "EOS home:" $EOS_HOME
+OUTPUT_DIR=${EOS_HOME}/tmpFiles/opendata_files/
+echo "Output directory:" $OUTPUT_DIR
+PROCESS=${INP%%\/}
+# Make output directory
+#mkdir -p ${OUTPUT_DIR}/${PROCESS}
+
+echo ""xrdcp -f out.root root://eosuser.cern.ch/${OUTPUT_DIR}/${INP}.root""
+xrdcp -f out.root root://eosuser.cern.ch/${OUTPUT_DIR}/${INP}.root
+ls
 
