@@ -1,0 +1,16 @@
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/E004FA5D-D9C0-E511-830B-00A0D1EE95CC.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/E0D965E9-DAC0-E511-AED9-00266CFFC4D4.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/E85A4564-6FC1-E511-ACCA-0CC47A4C8EE2.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/E8BBB13B-DAC0-E511-A390-00266CFAE818.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/E8C75729-71C1-E511-BC78-0CC47A4D76C0.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/EA6A8081-ECC0-E511-9D88-0025905C94D2.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/EAE2582A-DAC0-E511-BBEB-3417EBE644B9.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/EC96312E-D9C0-E511-A632-C4346BBCD528.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/EE832B1B-B3C0-E511-B0F9-0025905A60B8.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/EEC14254-D9C0-E511-8AF5-00A0D1EE29B8.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/F0A73867-6FC1-E511-8E32-0025905B85AA.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/F0BCE964-6FC1-E511-B48B-0CC47A4D762E.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/F426CB7F-ECC0-E511-84DF-0025904CDDEE.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/F4516811-C5C0-E511-A66E-001E67396761.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/F8845A38-D9C0-E511-A222-0025904C516C.root
+root://eospublic.cern.ch//eos/opendata/cms/Run2015D/SingleMuon/MINIAOD/16Dec2015-v1/60000/FA08527A-ECC0-E511-BBC0-0025905C42FE.root

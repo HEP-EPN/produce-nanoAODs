@@ -11,13 +11,10 @@ should_transfer_files   = Yes
 # /tmp/x509up_u7652 is ekauffma's proxy 
 # filenames_*.txt (change to appropriate filename) contains the file names in the directory combined-data
 # split-datasets contains text files with lists of ROOT files to convert to nanoAOD format (all ROOT files in one text file are combined)
-transfer_input_files    = /afs/cern.ch/user/a/algomez/x509up_u15148, filenames.txt, split-datasets, nanoaod15_cfg.py, run.sh
+transfer_input_files    = /afs/cern.ch/user/a/algomez/x509up_u15148, filenames.txt, split-datasets, nanoaod15_cfg.py, run.sh, data_cfg.py
 when_to_transfer_output = ON_EXIT
-#transfer_output_files   = 
-#+WantDocker             = true
-#+DockerImage            = "unlhcc/osg-wn-el7"
 docker_image            = docker.io/unlhcc/osg-wn-el7
 request_memory          = 4000
-+JobFlavour = "testmatch"
++JobFlavour             = "testmatch"
 
 queue arguments from filenames.txt
